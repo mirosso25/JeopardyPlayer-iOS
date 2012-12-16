@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F99B26B167D8DEA00C238C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B26A167D8DEA00C238C7 /* UIKit.framework */; };
+		5F99B26D167D8DEA00C238C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B26C167D8DEA00C238C7 /* Foundation.framework */; };
+		5F99B26F167D8DEA00C238C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B26E167D8DEA00C238C7 /* CoreGraphics.framework */; };
+		5F99B275167D8DEA00C238C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B273167D8DEA00C238C7 /* InfoPlist.strings */; };
+		5F99B277167D8DEA00C238C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99B276167D8DEA00C238C7 /* main.m */; };
+		5F99B27B167D8DEA00C238C7 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99B27A167D8DEA00C238C7 /* JPAppDelegate.m */; };
+		5F99B27D167D8DEA00C238C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B27C167D8DEA00C238C7 /* Default.png */; };
+		5F99B27F167D8DEB00C238C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B27E167D8DEB00C238C7 /* Default@2x.png */; };
+		5F99B281167D8DEB00C238C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B280167D8DEB00C238C7 /* Default-568h@2x.png */; };
+		5F99B284167D8DEB00C238C7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B282167D8DEB00C238C7 /* MainStoryboard_iPhone.storyboard */; };
+		5F99B287167D8DEB00C238C7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B285167D8DEB00C238C7 /* MainStoryboard_iPad.storyboard */; };
+		5F99B28A167D8DEB00C238C7 /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99B289167D8DEB00C238C7 /* JPViewController.m */; };
+		5F99B292167D8DEB00C238C7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B291167D8DEB00C238C7 /* SenTestingKit.framework */; };
+		5F99B293167D8DEB00C238C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B26A167D8DEA00C238C7 /* UIKit.framework */; };
+		5F99B294167D8DEB00C238C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B26C167D8DEA00C238C7 /* Foundation.framework */; };
+		5F99B29C167D8DEB00C238C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B29A167D8DEB00C238C7 /* InfoPlist.strings */; };
+		5F99B29F167D8DEB00C238C7 /* JeopardyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99B29E167D8DEB00C238C7 /* JeopardyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F99B295167D8DEB00C238C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F99B25D167D8DEA00C238C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F99B265167D8DEA00C238C7;
+			remoteInfo = Jeopardy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F99B266167D8DEA00C238C7 /* Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F99B26A167D8DEA00C238C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F99B26C167D8DEA00C238C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F99B26E167D8DEA00C238C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F99B272167D8DEA00C238C7 /* Jeopardy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jeopardy-Info.plist"; sourceTree = "<group>"; };
+		5F99B274167D8DEA00C238C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F99B276167D8DEA00C238C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F99B278167D8DEA00C238C7 /* Jeopardy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jeopardy-Prefix.pch"; sourceTree = "<group>"; };
+		5F99B279167D8DEA00C238C7 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		5F99B27A167D8DEA00C238C7 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		5F99B27C167D8DEA00C238C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5F99B27E167D8DEB00C238C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5F99B280167D8DEB00C238C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F99B283167D8DEB00C238C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5F99B286167D8DEB00C238C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5F99B288167D8DEB00C238C7 /* JPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		5F99B289167D8DEB00C238C7 /* JPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		5F99B290167D8DEB00C238C7 /* JeopardyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeopardyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F99B291167D8DEB00C238C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F99B299167D8DEB00C238C7 /* JeopardyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JeopardyTests-Info.plist"; sourceTree = "<group>"; };
+		5F99B29B167D8DEB00C238C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F99B29D167D8DEB00C238C7 /* JeopardyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeopardyTests.h; sourceTree = "<group>"; };
+		5F99B29E167D8DEB00C238C7 /* JeopardyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeopardyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F99B263167D8DEA00C238C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99B26B167D8DEA00C238C7 /* UIKit.framework in Frameworks */,
+				5F99B26D167D8DEA00C238C7 /* Foundation.framework in Frameworks */,
+				5F99B26F167D8DEA00C238C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99B28C167D8DEB00C238C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99B292167D8DEB00C238C7 /* SenTestingKit.framework in Frameworks */,
+				5F99B293167D8DEB00C238C7 /* UIKit.framework in Frameworks */,
+				5F99B294167D8DEB00C238C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F99B25B167D8DEA00C238C7 = {
+			isa = PBXGroup;
+			children = (
+				5F99B270167D8DEA00C238C7 /* Jeopardy */,
+				5F99B297167D8DEB00C238C7 /* JeopardyTests */,
+				5F99B269167D8DEA00C238C7 /* Frameworks */,
+				5F99B267167D8DEA00C238C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F99B267167D8DEA00C238C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F99B266167D8DEA00C238C7 /* Jeopardy.app */,
+				5F99B290167D8DEB00C238C7 /* JeopardyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F99B269167D8DEA00C238C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F99B26A167D8DEA00C238C7 /* UIKit.framework */,
+				5F99B26C167D8DEA00C238C7 /* Foundation.framework */,
+				5F99B26E167D8DEA00C238C7 /* CoreGraphics.framework */,
+				5F99B291167D8DEB00C238C7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F99B270167D8DEA00C238C7 /* Jeopardy */ = {
+			isa = PBXGroup;
+			children = (
+				5F99B279167D8DEA00C238C7 /* JPAppDelegate.h */,
+				5F99B27A167D8DEA00C238C7 /* JPAppDelegate.m */,
+				5F99B282167D8DEB00C238C7 /* MainStoryboard_iPhone.storyboard */,
+				5F99B285167D8DEB00C238C7 /* MainStoryboard_iPad.storyboard */,
+				5F99B288167D8DEB00C238C7 /* JPViewController.h */,
+				5F99B289167D8DEB00C238C7 /* JPViewController.m */,
+				5F99B271167D8DEA00C238C7 /* Supporting Files */,
+			);
+			path = Jeopardy;
+			sourceTree = "<group>";
+		};
+		5F99B271167D8DEA00C238C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F99B272167D8DEA00C238C7 /* Jeopardy-Info.plist */,
+				5F99B273167D8DEA00C238C7 /* InfoPlist.strings */,
+				5F99B276167D8DEA00C238C7 /* main.m */,
+				5F99B278167D8DEA00C238C7 /* Jeopardy-Prefix.pch */,
+				5F99B27C167D8DEA00C238C7 /* Default.png */,
+				5F99B27E167D8DEB00C238C7 /* Default@2x.png */,
+				5F99B280167D8DEB00C238C7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F99B297167D8DEB00C238C7 /* JeopardyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F99B29D167D8DEB00C238C7 /* JeopardyTests.h */,
+				5F99B29E167D8DEB00C238C7 /* JeopardyTests.m */,
+				5F99B298167D8DEB00C238C7 /* Supporting Files */,
+			);
+			path = JeopardyTests;
+			sourceTree = "<group>";
+		};
+		5F99B298167D8DEB00C238C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F99B299167D8DEB00C238C7 /* JeopardyTests-Info.plist */,
+				5F99B29A167D8DEB00C238C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F99B265167D8DEA00C238C7 /* Jeopardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F99B2A2167D8DEB00C238C7 /* Build configuration list for PBXNativeTarget "Jeopardy" */;
+			buildPhases = (
+				5F99B262167D8DEA00C238C7 /* Sources */,
+				5F99B263167D8DEA00C238C7 /* Frameworks */,
+				5F99B264167D8DEA00C238C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeopardy;
+			productName = Jeopardy;
+			productReference = 5F99B266167D8DEA00C238C7 /* Jeopardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F99B28F167D8DEB00C238C7 /* JeopardyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F99B2A5167D8DEB00C238C7 /* Build configuration list for PBXNativeTarget "JeopardyTests" */;
+			buildPhases = (
+				5F99B28B167D8DEB00C238C7 /* Sources */,
+				5F99B28C167D8DEB00C238C7 /* Frameworks */,
+				5F99B28D167D8DEB00C238C7 /* Resources */,
+				5F99B28E167D8DEB00C238C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F99B296167D8DEB00C238C7 /* PBXTargetDependency */,
+			);
+			name = JeopardyTests;
+			productName = JeopardyTests;
+			productReference = 5F99B290167D8DEB00C238C7 /* JeopardyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F99B25D167D8DEA00C238C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Parker Wightman Inc.";
+			};
+			buildConfigurationList = 5F99B260167D8DEA00C238C7 /* Build configuration list for PBXProject "Jeopardy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F99B25B167D8DEA00C238C7;
+			productRefGroup = 5F99B267167D8DEA00C238C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F99B265167D8DEA00C238C7 /* Jeopardy */,
+				5F99B28F167D8DEB00C238C7 /* JeopardyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F99B264167D8DEA00C238C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99B275167D8DEA00C238C7 /* InfoPlist.strings in Resources */,
+				5F99B27D167D8DEA00C238C7 /* Default.png in Resources */,
+				5F99B27F167D8DEB00C238C7 /* Default@2x.png in Resources */,
+				5F99B281167D8DEB00C238C7 /* Default-568h@2x.png in Resources */,
+				5F99B284167D8DEB00C238C7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5F99B287167D8DEB00C238C7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99B28D167D8DEB00C238C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99B29C167D8DEB00C238C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F99B28E167D8DEB00C238C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F99B262167D8DEA00C238C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99B277167D8DEA00C238C7 /* main.m in Sources */,
+				5F99B27B167D8DEA00C238C7 /* JPAppDelegate.m in Sources */,
+				5F99B28A167D8DEB00C238C7 /* JPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99B28B167D8DEB00C238C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99B29F167D8DEB00C238C7 /* JeopardyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F99B296167D8DEB00C238C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F99B265167D8DEA00C238C7 /* Jeopardy */;
+			targetProxy = 5F99B295167D8DEB00C238C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F99B273167D8DEA00C238C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F99B274167D8DEA00C238C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F99B282167D8DEB00C238C7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F99B283167D8DEB00C238C7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5F99B285167D8DEB00C238C7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F99B286167D8DEB00C238C7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5F99B29A167D8DEB00C238C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F99B29B167D8DEB00C238C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F99B2A0167D8DEB00C238C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F99B2A1167D8DEB00C238C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F99B2A3167D8DEB00C238C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F99B2A4167D8DEB00C238C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F99B2A6167D8DEB00C238C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jeopardy.app/Jeopardy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "JeopardyTests/JeopardyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F99B2A7167D8DEB00C238C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jeopardy.app/Jeopardy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "JeopardyTests/JeopardyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F99B260167D8DEA00C238C7 /* Build configuration list for PBXProject "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99B2A0167D8DEB00C238C7 /* Debug */,
+				5F99B2A1167D8DEB00C238C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F99B2A2167D8DEB00C238C7 /* Build configuration list for PBXNativeTarget "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99B2A3167D8DEB00C238C7 /* Debug */,
+				5F99B2A4167D8DEB00C238C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F99B2A5167D8DEB00C238C7 /* Build configuration list for PBXNativeTarget "JeopardyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99B2A6167D8DEB00C238C7 /* Debug */,
+				5F99B2A7167D8DEB00C238C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F99B25D167D8DEA00C238C7 /* Project object */;
+}
