@@ -24,6 +24,8 @@
 		5F99B294167D8DEB00C238C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F99B26C167D8DEA00C238C7 /* Foundation.framework */; };
 		5F99B29C167D8DEB00C238C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F99B29A167D8DEB00C238C7 /* InfoPlist.strings */; };
 		5F99B29F167D8DEB00C238C7 /* JeopardyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99B29E167D8DEB00C238C7 /* JeopardyTests.m */; };
+		5F99B2B8167E960800C238C7 /* JPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99B2B7167E960800C238C7 /* JPNetworkManager.m */; };
+		92E2F7EABBFD4F2BBB171BA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DB435AA33A455DAD34CE05 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C95DC45261D4C86AD42A684 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		57DB435AA33A455DAD34CE05 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F99B266167D8DEA00C238C7 /* Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F99B26A167D8DEA00C238C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F99B26C167D8DEA00C238C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +64,8 @@
 		5F99B29B167D8DEB00C238C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F99B29D167D8DEB00C238C7 /* JeopardyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeopardyTests.h; sourceTree = "<group>"; };
 		5F99B29E167D8DEB00C238C7 /* JeopardyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeopardyTests.m; sourceTree = "<group>"; };
+		5F99B2B6167E960800C238C7 /* JPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNetworkManager.h; sourceTree = "<group>"; };
+		5F99B2B7167E960800C238C7 /* JPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				5F99B26B167D8DEA00C238C7 /* UIKit.framework in Frameworks */,
 				5F99B26D167D8DEA00C238C7 /* Foundation.framework in Frameworks */,
 				5F99B26F167D8DEA00C238C7 /* CoreGraphics.framework in Frameworks */,
+				92E2F7EABBFD4F2BBB171BA7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +100,7 @@
 				5F99B297167D8DEB00C238C7 /* JeopardyTests */,
 				5F99B269167D8DEA00C238C7 /* Frameworks */,
 				5F99B267167D8DEA00C238C7 /* Products */,
+				2C95DC45261D4C86AD42A684 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +120,7 @@
 				5F99B26C167D8DEA00C238C7 /* Foundation.framework */,
 				5F99B26E167D8DEA00C238C7 /* CoreGraphics.framework */,
 				5F99B291167D8DEB00C238C7 /* SenTestingKit.framework */,
+				57DB435AA33A455DAD34CE05 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 				5F99B288167D8DEB00C238C7 /* JPViewController.h */,
 				5F99B289167D8DEB00C238C7 /* JPViewController.m */,
 				5F99B271167D8DEA00C238C7 /* Supporting Files */,
+				5F99B2B6167E960800C238C7 /* JPNetworkManager.h */,
+				5F99B2B7167E960800C238C7 /* JPNetworkManager.m */,
 			);
 			path = Jeopardy;
 			sourceTree = "<group>";
@@ -173,6 +184,7 @@
 				5F99B262167D8DEA00C238C7 /* Sources */,
 				5F99B263167D8DEA00C238C7 /* Frameworks */,
 				5F99B264167D8DEA00C238C7 /* Resources */,
+				3E1C0E219AEB4C5F92C7CB84 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +267,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3E1C0E219AEB4C5F92C7CB84 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		5F99B28E167D8DEB00C238C7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +304,7 @@
 				5F99B277167D8DEA00C238C7 /* main.m in Sources */,
 				5F99B27B167D8DEA00C238C7 /* JPAppDelegate.m in Sources */,
 				5F99B28A167D8DEB00C238C7 /* JPViewController.m in Sources */,
+				5F99B2B8167E960800C238C7 /* JPNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,22 +416,34 @@
 		};
 		5F99B2A3167D8DEB00C238C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C95DC45261D4C86AD42A684 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: ROBERT WIGHTMAN (6M3BSZ6J39)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ROBERT WIGHTMAN (6M3BSZ6J39)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
 				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D85016DC-7528-429B-97F6-40F4E9A275D1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D85016DC-7528-429B-97F6-40F4E9A275D1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		5F99B2A4167D8DEB00C238C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C95DC45261D4C86AD42A684 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: ROBERT WIGHTMAN (6M3BSZ6J39)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ROBERT WIGHTMAN (6M3BSZ6J39)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
 				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D85016DC-7528-429B-97F6-40F4E9A275D1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D85016DC-7528-429B-97F6-40F4E9A275D1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -462,6 +501,7 @@
 				5F99B2A4167D8DEB00C238C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F99B2A5167D8DEB00C238C7 /* Build configuration list for PBXNativeTarget "JeopardyTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +510,7 @@
 				5F99B2A7167D8DEB00C238C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

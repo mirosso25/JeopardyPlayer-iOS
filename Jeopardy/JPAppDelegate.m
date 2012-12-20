@@ -7,12 +7,19 @@
 //
 
 #import "JPAppDelegate.h"
+#import "JPViewController.h"
+
+@interface JPAppDelegate ()
+@property (strong, nonatomic) JPViewController *controller;
+@end
 
 @implementation JPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+	[[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+	_controller = (JPViewController *)[_window rootViewController];
     return YES;
 }
 							
@@ -31,6 +38,7 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
 	// Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+	[_controller reconnect];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

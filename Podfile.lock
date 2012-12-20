@@ -1,0 +1,17 @@
+
+PODS:
+- CocoaAsyncSocket (0.0.1)
+- MTBlockTableView (0.0.1)
+- PSAlertView (0.0.1)
+
+DEPENDENCIES:
+- CocoaAsyncSocket
+- MTBlockTableView
+- PSAlertView
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 70f5de3c1ba13526c23df75fc98a0ea3049aa19c
+  MTBlockTableView: ad24b5ff32f05b6b3a949f346b2b599b6a0bbb45
+  PSAlertView: 5bc4685d044af02724f7d1ac8cd5e113afbee648
+
+COCOAPODS: 0.16.0

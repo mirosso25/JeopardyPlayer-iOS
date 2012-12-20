@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CocoaAsyncSocket/AsyncSocket.h>
 
-@interface JPViewController : UIViewController
-
+@interface JPViewController : UIViewController <AsyncSocketDelegate>
+- (void) reconnect;
 @end
