@@ -93,6 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3B38011684F0750009ACA8 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Boards;
+			sourceTree = "<group>";
+		};
 		5F99B25B167D8DEA00C238C7 = {
 			isa = PBXGroup;
 			children = (
@@ -134,9 +141,9 @@
 				5F99B285167D8DEB00C238C7 /* MainStoryboard_iPad.storyboard */,
 				5F99B288167D8DEB00C238C7 /* JPViewController.h */,
 				5F99B289167D8DEB00C238C7 /* JPViewController.m */,
-				5F99B271167D8DEA00C238C7 /* Supporting Files */,
 				5F99B2B6167E960800C238C7 /* JPNetworkManager.h */,
 				5F99B2B7167E960800C238C7 /* JPNetworkManager.m */,
+				5F99B271167D8DEA00C238C7 /* Supporting Files */,
 			);
 			path = Jeopardy;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 		5F99B271167D8DEA00C238C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F3B38011684F0750009ACA8 /* Boards */,
 				5F99B272167D8DEA00C238C7 /* Jeopardy-Info.plist */,
 				5F99B273167D8DEA00C238C7 /* InfoPlist.strings */,
 				5F99B276167D8DEA00C238C7 /* main.m */,
