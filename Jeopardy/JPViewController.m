@@ -78,6 +78,8 @@
 	
 	
 	alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
+	[alertView textFieldAtIndex:0].keyboardType = UIKeyboardTypeNumbersAndPunctuation;
+	
 	[alertView show];
 	
 	[self setupNetworkBlocks];
@@ -99,6 +101,8 @@
 			[blockSelf.networkManager sendDailyDoubleWager:[[alertView textFieldAtIndex:0].text integerValue]];
 		}];
 		alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
+		[alertView textFieldAtIndex:0].keyboardType = UIKeyboardTypeNumbersAndPunctuation;
+		
 		[alertView show];
 	};
 	
@@ -116,6 +120,9 @@
 		
 		[actionSheet addButtonWithTitle:@"New Connection" block:^{
 			[self presentConnectDialog];
+		}];
+		
+		[actionSheet addButtonWithTitle:@"Cancel" block:^{
 		}];
 		
 		[actionSheet showInView:_connectButton];
